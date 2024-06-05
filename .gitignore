@@ -1,0 +1,53 @@
+# .gitignore
+
+# Python specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# Virtual environment directory
+.evfb/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Flask specific files
+instance/
+.webassets-cache
+env/
+
+# Tailwind CSS and Flowbite specific files
+node_modules/
+public/css/tailwind.css
+public/css/tailwind.min.css
+
+# Editor directories and files
+*.swp
+*~
+*.swo
+*.DS_Store
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment variables
+.env
